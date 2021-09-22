@@ -1,10 +1,15 @@
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import LoginForm from './containers/LoginForm';
+import Header from './containers/Header';
+
 
 function App() {
   return (
-    <LoginForm></LoginForm>
+    <>
+      <Header />
+      <LoginForm />
+    </>
   );
 }
 
